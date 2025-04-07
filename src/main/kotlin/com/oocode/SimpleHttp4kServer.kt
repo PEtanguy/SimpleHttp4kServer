@@ -148,7 +148,6 @@ private object HomePage {
     <div class="footer">
         <p>Powered by <a href="https://www.http4k.org/" target="_blank">http4k</a> | Simple, Fast, Lightweight</p>
     </div>
-
     <script>
         // Add some interactivity: update the search results div dynamically
         document.querySelector('input[name="q"]').addEventListener('input', function() {
