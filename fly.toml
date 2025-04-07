@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for simplehttp4kserver-other on 2025-03-13T14:26:51Z
+# fly.toml app configuration file generated for simplehttp4kserver-pedro on 2025-04-07T14:15:08+01:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'simplehttp4kserver'
+app = 'simplehttp4kserver-pedro'
 primary_region = 'lhr'
 
 [build]
@@ -17,6 +17,6 @@ primary_region = 'lhr'
   processes = ['app']
 
 [[vm]]
+  memory = '1gb'
   cpu_kind = 'shared'
   cpus = 1
-  memory_mb = 1024
